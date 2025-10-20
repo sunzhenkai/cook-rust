@@ -1,7 +1,7 @@
 mod concepts;
 mod games;
 
-use crate::concepts::variables;
+use crate::concepts::{control, variables};
 use crate::games::guess_number;
 
 fn need_input() {
@@ -11,6 +11,7 @@ fn need_input() {
 
 fn normal() {
     variables::play();
+    control::play();
 }
 
 fn main() {
