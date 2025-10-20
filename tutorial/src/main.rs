@@ -10,7 +10,7 @@ fn need_input() {
 }
 
 fn normal() {
-    variables::def_vars();
+    variables::play();
 }
 
 fn main() {
